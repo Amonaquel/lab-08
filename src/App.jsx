@@ -8,7 +8,7 @@ import './App.css'
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('discover');
-
+  const language = 'English'
   const postData = [
     {
       username: "Mavs Fan",
